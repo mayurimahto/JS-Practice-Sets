@@ -33,3 +33,8 @@ console.log(newarr2)
 
 //Q-5
 //Use reduce to calculate factorial of a given number from an array of 1st n natural number( n being the number whose factorial needs to be calculated)
+let array = [1, 2, 3, 4, 5, 6]
+let newarray = array.reduce((x1,x2)=>{
+    return x1*x2
+})
+console.log(newarray)
